@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 15px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 19px;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative; 
+
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -480px;
+    height: 1000px;
+    width: 1000px;
+    border-radius: 50%;
+    background-color:#017143;
+}
+
+.social-media{
+    position: absolute;
+    right: 500px;
+    top: 200px;
+}
+
+.social-media img{
+    display: block;
+    width: 20px;
+    margin: 20px 0;
+}
+
+.texto-sobre{
+    margin: 100px 2%;
+    font-size: 30px;
+}
+
+.texto-sobre h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: normal;
+}
+
+.texto-sobre span{
+  font-family: 'Merriweather Sans';
+    font-weight: bold;
+}
+.texto-sobre p{
+    margin: 20px 0;
+    line-height:20px;
+    letter-spacing: 1.5px;
+    color: black;
+    font-size: 14px; 
+    max-width: 600px;
+}
+.texto-sobre button{
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    padding: 4px;
+    height: 40px;
+    width: 90px;
+    border-radius:30px;
+    border: 0;
+    background-color:#017143;
+}
+.copos-footer{
+    float: right;
+    text-align: right;
+}
+.copos-footer img{
+    width: 70px;
+}
